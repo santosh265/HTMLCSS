@@ -1,0 +1,107 @@
+
+*{	
+	box-sizing: border-box;
+	}
+body{
+	font-weight: bold;  
+	font-family: cursive;
+}
+h1{
+	text-align: center;
+	margin-bottom: 130px;
+	margin-top: 100px;
+}
+
+@media(min-width: 992px){
+	.lg4 {float:left;}
+
+	.lg4{
+		width: 33.33%
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.md6{float: left;}
+h1{
+		margin-bottom: 60px;
+		margin-top: 60px;
+	}
+.md6{
+	width:50%;
+	margin-right: auto;
+ 	margin-left: auto;
+}
+
+#special-card{
+	width: 99.8%;
+}
+.card2{
+	margin-left: 6px;
+
+}
+.card{
+	margin-right: 6px;
+}
+
+.card3{
+	width: 91.5%;
+	margin-top: 0px;
+}	
+}
+
+@media(max-width: 767px){
+	h1{
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+ .sm12{float: left;}
+
+ .sm12{
+ 	width: 100%;
+ }
+}
+.row{
+	width: 100%;
+	margin: auto;
+}
+
+.menu-card-heading{
+  	float: right;
+   	border-left: 2.5px solid black;
+   	border-bottom:2.5px solid black;
+    border-right: 0px;
+    border-top: 0px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 3px;
+}
+
+#chicken{
+	 background-color: pink;
+}
+
+#beef{
+	 background-color: red;
+    color:white;
+    font: bold;
+}
+
+#sushi{
+	background-color:#e9b988;
+}
+
+p {
+  border: 2.5px solid black;
+  background-color: grey;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+  overflow: hidden;
+}
+.menu-card-content{
+	padding: 10px;
+	padding-top: 5px;
+	float: right;
+}
